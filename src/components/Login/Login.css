@@ -1,0 +1,121 @@
+.Login{
+	min-width: 350px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	font-size: 15px;
+	
+}
+
+.Login form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	width: 280px;
+}
+
+.Login .Login-form{
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	border: 1px solid #dfdfdf;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+
+.Login .brand-img-login{
+
+    width: 175px;
+    height: 51px;
+   
+}
+
+.login-social img{
+	width: 20px;
+	height: 20px;
+}
+
+.login-footer img{
+	width: 100px;
+	height: 40px;
+}
+
+.Login input{
+	max-width: 28px0;
+}
+
+.login-footer {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.login-footer :first-child{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-footer :last-child{
+	display: flex;
+	gap: 10px;
+}
+
+.Login .to-reg{
+	border: 1px solid #dfdfdf;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0;
+	background-color: #fff;
+}
+
+.to-reg a{
+	text-decoration: none;
+	color: rgb(91, 159, 182);
+}
+
+.login-social{
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+	color: #405DE6;
+}
+
+.login-btn {
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+
+}
+
+.login-btn button{
+	width: 100%;
+	height: 30px;
+	background-color: #405DE6;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.login-input,.login-input input{
+	width: 100%;
+}
+
+.login-input input{
+	height: 30px;
+	border: 1px solid #dfdfdf;
+	border-top: none;
+	background-color: #fafafa;
+	padding: 10px;
+}

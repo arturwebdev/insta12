@@ -1,0 +1,30 @@
+.search-info{
+    position: absolute;
+    left: 50%;
+    top: 37px;
+    transform: translateX(-50%);
+    width: 200px;
+    background: #f3f3f3;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 15px;
+}
+
+.search-box{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 25px;
+    background: #fafafa;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.search-box::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
